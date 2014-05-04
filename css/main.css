@@ -24,10 +24,12 @@ body {
 	background: #ffffff;
 	/*padding: 0 50px;*/
 	margin: 0 auto;
+	background: #F8EDED;
 	/*text-align: left;*/
 }
 
 .content{
+	background: #FFFFFF;
 	box-shadow: 0 0 12px 0 #CCCCCC;
 	color: #333333;
 	font-family: Univers45Light,Verdana;
@@ -55,15 +57,14 @@ body {
 	top: 13px;
 }
 
-.content .bannerImg{
+.bannerImg{
 	display: inline-block;
-	margin-left: 240px;
 	position: absolute;
 	margin-left: 240px;
 	margin-top: -20px;
 }
 
-.content .underBanner{
+.underBanner{
 	margin-top: 180px;
 }
 
@@ -83,6 +84,7 @@ line-height: 21px;
 }
 .rightSide{
 	float: left;
+	width: 320px;
 }
 .rightUp {
 	border-bottom: 1px solid black;
@@ -93,4 +95,17 @@ line-height: 21px;
 }
 .leftImage{
 	width: 750px;
+}
+.rightText1{
+	font-size: 12px;
+	font-weight:bold;
+}
+.rightText2{
+	width: 200px;
+	margin-left: 80px;
+}
+.rightText3{
+	font-size: 12px;
+	width: 220px;
+	margin-left: 80px;
 }
