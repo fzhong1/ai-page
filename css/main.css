@@ -1,0 +1,94 @@
+h2, p {
+font-family: Verdana, Geneva, sans-serif;
+}
+
+html {
+  min-height:100%;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  position:relative;
+  width:100%;
+}
+
+body {
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+.wrapper{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	margin:0 auto;
+	position: relative;
+	background: #ffffff;
+	/*padding: 0 50px;*/
+	margin: 0 auto;
+	/*text-align: left;*/
+}
+
+.content{
+	box-shadow: 0 0 12px 0 #CCCCCC;
+	color: #333333;
+	font-family: Univers45Light,Verdana;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1200px;
+	height: auto;
+}
+.aiHeader {
+	background-color: #019DDA;
+	border-bottom: 1px solid #66C4EA;
+	height: 60px;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+}
+
+.logoName {
+	font-size: 1.6em;
+	color: white;
+	margin: auto 0 auto 145px;
+	position: absolute;
+	top: 13px;
+}
+
+.content .bannerImg{
+	display: inline-block;
+	margin-left: 240px;
+	position: absolute;
+	margin-left: 240px;
+	margin-top: -20px;
+}
+
+.content .underBanner{
+	margin-top: 180px;
+}
+
+/*p {
+margin-bottom: 1em;
+}*/
+
+.description {
+	text-align: justify;
+	border-right: 1px solid #B6B6B6;
+	padding-right: 15px;
+}
+.description h2 {
+font-size: 1.4em;
+font-weight: normal;
+margin-bottom: .2em;
+}
+.description p {
+font-size: 14px;
+line-height: 21px;
+}
+.rightUp {
+font: .9em sans-serif;
+}
+.rightUp h2 {
+font-size: 1.2em;
+margin-bottom: 1em;
+}
