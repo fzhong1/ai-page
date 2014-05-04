@@ -13,10 +13,9 @@
 	width:1200px;
 	}
 	.rightUp {
-	float: right;
-	width: 26%;
-	padding: 0 2.5%;
-	border-bottom: 1px solid black;
+	margin-left: 33px;
+	border-bottom: 1px solid rgb(189, 185, 185);
+	padding-bottom: 19px;
 	}
 	.leftUp {
 	-webkit-column-count: 1;

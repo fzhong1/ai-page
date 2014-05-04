@@ -67,10 +67,6 @@ body {
 	margin-top: 180px;
 }
 
-/*p {
-margin-bottom: 1em;
-}*/
-
 .description {
 	text-align: justify;
 	border-right: 1px solid #B6B6B6;
@@ -85,10 +81,16 @@ margin-bottom: .2em;
 font-size: 14px;
 line-height: 21px;
 }
-.rightUp {
-font: .9em sans-serif;
+.rightSide{
+	float: left;
 }
-.rightUp h2 {
-font-size: 1.2em;
-margin-bottom: 1em;
+.rightUp {
+	border-bottom: 1px solid black;
+}
+.rightUpImage{
+	width: 320px;
+	height: 180px;
+}
+.leftImage{
+	width: 750px;
 }
