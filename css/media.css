@@ -25,9 +25,6 @@
 	-webkit-column-gap: 1em;
 	-moz-column-gap: 1em;
 	column-gap: 1em;
-	padding-bottom: 1em;
-	margin-bottom: 1em;
-	border-bottom: 1px solid black;
 	}
 	.leftUp:last-of-type {
 	border-bottom: none;
