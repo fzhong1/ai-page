@@ -90,7 +90,7 @@
 	padding-left: 2.5%;
 	}
 	.content{
-		width:668px;
+		width:768px;
 	}
 	.underBanner{
 		margin-top: 120px;
@@ -144,27 +144,34 @@
 	/*max-width: 480px;*/
 	}
 	.description {
-	padding: 0 5%;
+	/*float: left;*/
+	width: 80%;
+	/*padding-left: 0.5%;*/
 	}
 	.content{
-	width:768px;
+		width:100%;
 	}
 	.underBanner{
 	margin-top: 120px;
 	}
 	.bannerImg{
-	margin-left: 185px;
+	margin-left: 157px;
 	}
 	.bannerSize{
-	width: 350px;
+	width: 450px;
 	}
+	.description{
+		border-right:none;
+		margin-left: 100px;
+	}
+
 	.leftImage{
-	width: 370px;
+	width: 420px;
 	}
 	.rightSide{
-	float: left;
+	clear: both;
 	width: 200px;
-	margin-left: 19px;
+	/*margin-left: 19px;*/
 	}
 	.rightUpImage{
 	width: 225px;
