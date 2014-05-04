@@ -109,3 +109,22 @@ line-height: 21px;
 	width: 220px;
 	margin-left: 80px;
 }
+
+#popBox{
+display: block;
+border: 1px solid gray;
+width: 65px;
+text-align: center;
+padding: 6px;
+border-radius: 5px;
+text-decoration: none;
+margin: 0 auto;
+}
+#innerForm{
+position: absolute;
+border: 5px solid gray;
+padding: 10px;
+background: white;
+width: 270px;
+height: auto;
+}
