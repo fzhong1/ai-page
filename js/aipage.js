@@ -1,17 +1,40 @@
 window.onload = function(){
-	//open popup
+	//object demoRequests store user demo request data
+	function demo(firstName,lastName,email,company,phone,annualRevenue, notes) {
+	  this.firstName = firstName;
+	  this.lastName = lastName;
+	  this.email = email;
+	  this.company = company;
+	  this.phone = phone;
+	  this.annualRevenue  = annualRevenue;
+	  this.notes = notes;
+	}
+
+	function demoRequests() {
+	  demoRequests = [];
+	  this.demoRequests = demoRequests;
+
+	  this.add = function(prj) {
+	    demoRequests.splice(demoRequests.length,0,prj);
+	  }
+	}
+
+	var userRequests = new 	demoRequests();
+	userRequests.add(new demo("sdjf","dsjlf","dslfj","dslf","dslfj","sjfkld","dsjklf"));
+	userRequests.add(new demo("sd2222jf","dsjlf","dslfj","dslf","dslfj","sjfkld","dsjklf"));
+	console.log(userRequests);
+
 	$("#requestDemo").click(function(){
-	$("#popBox").fadeIn(1000);
+	$("#popBox").css("display","block");
 	positionPopup();
 	$(".blocker").css("background-color","black");
+	console.log("cc");
 	});
 	 
-	//close popup
 	$("#close").click(function(){
-	$("#innerForm").fadeOut(500);
+	$("#popBox").css("display","none");
 	});
 		 
-	//position the popup at the center of the page
 	function positionPopup(){
 	if(!$("#innerForm").is(':visible')){
 	return;
@@ -23,6 +46,21 @@ window.onload = function(){
 	});
 	}
 	 
-	//maintain the popup at center of the page when browser resized
 	$(window).bind('resize',positionPopup);
+
+	$("#submit").click(function(){
+		var firstName = $("#firstName").val();
+		var lastName = $("#lastName").val();
+		var email = $("#email").val();
+		var company = $("#company").val();
+		var phone = $("phone").val();
+		var annualRevenue = $("#annualRevenue").val();
+		var notes = $("#notes").val();
+		userRequests.add(new demo(firstName,lastName,email,company,phone,annualRevenue, notes));
+		console.log(userRequests);
+		$("#innerForm :input").each(function(){
+		$(this).val('');
+		});
+		$("#close").click();
+	});
 };
