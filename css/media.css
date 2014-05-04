@@ -265,7 +265,6 @@
 		margin: auto 0 auto 0;
 	}
 	.description {
-	/*float: left;*/
 	width: 60%;
 	padding-left: 0;
 	}
@@ -291,7 +290,7 @@
 	}
 	.rightSide{
 	clear: both;
-	width: 150px;
-	padding-left: 12%;
+	width: 120px;
+	padding-left: 0;
 	}
 }
