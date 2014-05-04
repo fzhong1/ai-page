@@ -22,17 +22,14 @@ body {
 	margin:0 auto;
 	position: relative;
 	background: #ffffff;
-	/*padding: 0 50px;*/
 	margin: 0 auto;
 	background: #F8EDED;
-	/*text-align: left;*/
 }
 
 .content{
 	background: #FFFFFF;
 	box-shadow: 0 0 12px 0 #CCCCCC;
 	color: #333333;
-	font-family: Univers45Light,Verdana;
 	font-size: 14px;
 	line-height: 18px;
 	margin: 0 auto;

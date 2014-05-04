@@ -209,10 +209,8 @@
 @media all and (min-width: 560px) and (max-width: 768px) {
 	body {
 	width: 100%;
-	/*max-width: 480px;*/
 	}
 	.description {
-	/*float: left;*/
 	width: 50%;
 	padding-left: 10.5%;
 	}
@@ -255,7 +253,6 @@
 	}
 	.rightUp {
 	border-top: 1px solid black;
-	/*padding: 1em 5% 0;*/
 	line-height: 2;
 	}
 }
@@ -263,7 +260,6 @@
 @media all and (max-width: 560px) {
 	body {
 	width: 100%;
-	/*max-width: 480px;*/
 	}
 	.description {
 	/*float: left;*/
@@ -311,7 +307,6 @@
 	}
 	.rightUp {
 	border-top: 1px solid black;
-	/*padding: 1em 5% 0;*/
 	line-height: 2;
 	}
 	.rightText1{
