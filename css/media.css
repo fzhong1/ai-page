@@ -261,10 +261,13 @@
 	width: 100%;
 	/*max-width: 480px;*/
 	}
+	.logoName {
+		margin: auto 0 auto 0;
+	}
 	.description {
 	/*float: left;*/
-	width: 40%;
-	padding-left: 10.5%;
+	width: 60%;
+	padding-left: 0;
 	}
 	.content{
 		width:90%;
@@ -273,10 +276,10 @@
 	margin-top: 120px;
 	}
 	.bannerImg{
-	margin-left: 15%;
+	margin-left: 10%;
 	}
 	.bannerSize{
-	width: 250px;
+	width: 200px;
 	}
 	.description{
 		border-right:none;
