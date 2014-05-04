@@ -20,9 +20,6 @@ window.onload = function(){
 	}
 
 	var userRequests = new 	demoRequests();
-	userRequests.add(new demo("sdjf","dsjlf","dslfj","dslf","dslfj","sjfkld","dsjklf"));
-	userRequests.add(new demo("sd2222jf","dsjlf","dslfj","dslf","dslfj","sjfkld","dsjklf"));
-	console.log(userRequests);
 
 	$("#requestDemo").click(function(){
 	$("#popBox").css("display","block");
